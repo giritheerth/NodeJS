@@ -1,0 +1,16 @@
+### test get / website
+GET http://localhost:8383
+
+### test for dashboard
+GET http://localhost:8383/dashboard
+
+### data 
+GET http://localhost:8383/api/data
+
+###post
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name": "Saraniyaa"
+}
